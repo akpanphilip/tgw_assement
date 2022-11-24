@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --mainClr: #8417B8;
+    --lightClr: #8517b883;
+}
+
+.formBox {
+    height: 100vh;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    width: 100%;
+    background: var(--mainClr);
+}
+
+.formMain {
+    padding: 25px;
+    width: 100%;
+    height: auto;
+    /* margin-top: 130px; */
+    background: #fff;
+    border-radius: 12px;
+}
+
+.form-header {
+    text-align: center;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 18px;
+    /* border-bottom: 1px solid #ccc; */
+}
+
+.ivu-input {
+    /* background: red !important; */
+    border-left-style: none !important;
+    border-right-style: none !important;
+    border-top-style: none !important;
+    border-radius: none !important;
+    outline: none !important;
+}
+
+.ivu-input:focus {
+    border-left-style: none !important;
+    border-right-style: none !important;
+    border-top-style: none !important;
+    outline: none !important;
+    box-shadow: none !important;
+    border-bottom-color: var(--mainClr);
+}
+
+.submitBtn {
+    width: 100%;
+    height: 50px;
+    border-radius: 20px;
+    background: var(--mainClr);
+    border: none;
+    outline: none;
+    color: #fff;
+}
+
+.submitBtn:hover {
+    border: 2px solid var(--mainClr);
+    background: #fff;
+    color: var(--mainClr);
+    transition: .5s linear;
+}
+
+label {
+    /* font-weight: 600; */
+}
+
+.linkText {
+    font-size: 12px;
+    color: var(--mainClr) !important;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.navbar {
+    border-bottom: 1px solid rgba(204, 204, 204, 0.384);
+}
+
+.avatarImg {
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+}
+
+.avatarImg img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50px;
+}
+
+.banner {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 55px;
+    color: #fff;
+    font-weight: bold;
+    background: linear-gradient(to right, #8417B8, #8517b883);
+}
+
+.imageBox {
+    margin-right: 30px;
+}
+
+.imageBox img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+
+.name-text {
+    font-size: 15px;
+    width: 100%;
+    /* display: flex; */
+}
+.info{
+    width: 400px;
+    margin-left: 10px;
+    /* background: red; */
+}
